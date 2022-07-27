@@ -1,0 +1,24 @@
+
+.search {
+  display: inline-flex;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #F5F5F5;
+  input {
+    border: none;
+    background-color: #F5F5F5;
+    min-width: 350px;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+
+.search__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  order: -1;
+}
