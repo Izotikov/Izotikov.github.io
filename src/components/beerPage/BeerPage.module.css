@@ -1,0 +1,31 @@
+.beerImage {
+  height: 600px; }
+
+.beerPage {
+  padding: 25px;
+  display: flex; }
+
+.beerName {
+  font-size: 50px;
+  font-weight: bold; }
+
+.beerTagline {
+  font-size: 25px;
+  font-style: italic; }
+
+.beerDesc {
+  font-size: 20px;
+  margin-top: 50px; }
+
+.beerTextSide {
+  padding: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.foodPairing {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  font-size: 20px; }
+
+/*# sourceMappingURL=BeerPage.module.css.map */

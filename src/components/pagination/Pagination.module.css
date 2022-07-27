@@ -1,0 +1,18 @@
+.paginationList {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px; }
+  .paginationList button {
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: orange; }
+  .paginationList button:hover {
+    background-color: #ffc358;
+    cursor: pointer; }
+
+.paginationButtonActive {
+  border: 2px solid red; }
+
+/*# sourceMappingURL=Pagination.module.css.map */
