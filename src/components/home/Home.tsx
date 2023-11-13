@@ -29,7 +29,7 @@ const Home: FC = () => {
     });
 
     const searchedBeer = useMemo(() => {
-        return beer.filter(singleBeer => singleBeer.name.toLowerCase().includes(searchQuery));
+        return beer.filter(singleBeer => singleBeer.name.includes(searchQuery));
     }, [searchQuery, beer]);
 
     useEffect(() => {
