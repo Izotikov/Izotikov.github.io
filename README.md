@@ -1,48 +1,18 @@
-# vicue-soft-test-project
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Script
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Проект, написанный на React+TypeScript, взаимодействующий с API, содержащим в себе каталог пива и информацию о каждом.
 
-### `npm test`
+На главной странице представлены первые 8 загруженных марок пива. В проекте реализована пагинация, весь массив моделей разбит на страницы, на каждой отображается своя конкретная марка пива.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1440" alt="Снимок экрана 2023-11-13 в 7 23 25 PM" src="https://github.com/izotikov/vicue-soft-test-project/assets/91781655/cfd7db4b-afe1-401f-9005-4b1a49adcf6f">
 
-### `npm run build`
+При клике на любую из них открывается окно с подробным описанием марки и дополнительной информацией (например, о проценте спирта в напитке).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1440" alt="Снимок экрана 2023-11-13 в 7 29 01 PM" src="https://github.com/izotikov/vicue-soft-test-project/assets/91781655/fed66a9f-d31b-4ae5-9895-091d416455a1">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Также реализован поиск по названию, работает по мере набора запроса, без необходимости нажимать на кнопку поиск. Поиск регистронезависимый.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1440" alt="Снимок экрана 2023-11-13 в 7 30 13 PM" src="https://github.com/izotikov/vicue-soft-test-project/assets/91781655/377e2885-a60d-4df1-aa89-ce529b299d20">
